@@ -6,7 +6,7 @@ use LWP::Simple;
 my $res;
 my @matches;
 my $pas 	= "foo";
-my $domain 	= "1337fire.com";
+my $domain 	= "bar.com";
 
 $res = `prlctl list -a`; 
 
